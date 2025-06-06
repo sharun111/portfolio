@@ -1,0 +1,70 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  background-color: #78a9d1;
+  padding: 16px 20px;
+  border-radius: 10px;
+  max-width: 680px;
+  margin: 20px auto;
+  margin-left: 50%;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.card-content {
+  margin-left: 16px;
+  flex: 1;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.arrow {
+  margin-left: 4px;
+}
+
+.card-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-top: 8px;
+}
+.projects-heading{
+ display: none;
+}
+
+@media (max-width: 998px) {
+  .card {
+    width: 100%;
+    padding: 16px 20px;
+    margin: 0 auto 20px auto;
+    max-width: none;
+    display: block;
+    box-sizing: border-box;
+
+  }
+  .projects-heading{
+  display: inline-block;
+  font-size: 1rem;
+  color: #f8fafc;
+  margin-bottom: 1.5rem;
+
+}
+
+}
