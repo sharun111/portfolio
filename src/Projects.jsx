@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import logo from "/src/assets/instagram-application-logo_23-2151544086.avif"
 
 const Projects = () => {
     return (
@@ -10,7 +11,7 @@ const Projects = () => {
             <div className="card">
                 <div className="card-image">
                     <img
-                        src="/src/assets/instagram-application-logo_23-2151544086.avif"
+                        src={logo}
                         alt="Spotify Project"
                     />
                 </div>
