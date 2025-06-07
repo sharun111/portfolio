@@ -3,8 +3,13 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Projects from "./Projects";
 import { useRef, useState } from "react";
 import {resume} from "./Links"
+import Intro from "./Intro"; // Make sure this points to your actual file
+
+
 
 const App = () => {
+
+    const [showIntro, setShowIntro] = useState(true);
 
   const projectRef = useRef(null);
 
@@ -21,6 +26,9 @@ const App = () => {
     aboutRef.current?.scrollIntoView({ behavior: "smooth" });
 
   };
+  if (showIntro) {
+    return <Intro onComplete={() => setShowIntro(false)} />;
+  }
 
   return (
     <div className="about-container">
