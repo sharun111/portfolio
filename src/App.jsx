@@ -2,6 +2,7 @@ import React from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Projects from "./Projects";
 import { useRef, useState } from "react";
+import {resume} from "./Links"
 
 const App = () => {
 
@@ -56,7 +57,7 @@ const App = () => {
           </ul>
         </nav>
         <div className="resume-container">
-          <a href="/src/assets/Sharun_Resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-link">
+          <a href={resume} target="_blank" rel="noopener noreferrer" className="resume-link">
             View Full Résumé <span className="arrow"></span>
           </a>
         </div>

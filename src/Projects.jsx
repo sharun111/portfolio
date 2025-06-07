@@ -1,6 +1,8 @@
 import React from "react";
 import "./Projects.css";
-import logo from "/src/assets/instagram-application-logo_23-2151544086.avif"
+import {instagram ,Amazone,todo, weather,drum} from "./Links"
+
+
 
 const Projects = () => {
     return (
@@ -11,7 +13,7 @@ const Projects = () => {
             <div className="card">
                 <div className="card-image">
                     <img
-                        src={logo}
+                        src={instagram}
                         alt="Spotify Project"
                     />
                 </div>
@@ -30,7 +32,7 @@ const Projects = () => {
             <div className="card">
                 <div className="card-image">
                     <img
-                        src="/src/assets/01cada77a0a7d326d85b7969fe26a728.jpg"
+                        src={Amazone}
                         alt="Spotify Project"
                     />
                 </div>
@@ -49,7 +51,7 @@ const Projects = () => {
             <div className="card">
                 <div className="card-image">
                     <img
-                        src="/src/assets/526-5263079_todo-cloud-app-icon-circle-hd-png-download.png"
+                        src={todo}
                         alt="Spotify Project"
                     />
                 </div>
@@ -68,7 +70,7 @@ const Projects = () => {
             <div className="card">
                 <div className="card-image">
                     <img
-                        src="/src/assets/download.webp"
+                        src={ weather}
                         alt="Spotify Project"
                     />
                 </div>
@@ -88,7 +90,7 @@ const Projects = () => {
             <div className="card">
                 <div className="card-image">
                     <img
-                        src="/src/assets/download (1).webp"
+                        src={drum}
                         alt="Spotify Project"
                     />
                 </div>
