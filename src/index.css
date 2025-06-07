@@ -5,7 +5,6 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
   background-color: #0f172a;
   color: #cbd5e1;
 }
@@ -197,6 +196,20 @@ body {
 
 .resume-link:hover .arrow::after {
   transform: translateX(4px);
+}
+
+.savate-regular {
+  font-family: "Savate", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.savate-bold {
+  font-family: "Savate", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 
