@@ -3,13 +3,12 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Projects from "./Projects";
 import { useRef, useState } from "react";
 import {resume} from "./Links"
-import Intro from "./Intro"; // Make sure this points to your actual file
-
+import Intro from "./Intro"; 
 
 
 const App = () => {
 
-    const [showIntro, setShowIntro] = useState(true);
+  const [showIntro, setShowIntro] = useState(true);
 
   const projectRef = useRef(null);
 
@@ -31,6 +30,7 @@ const App = () => {
   }
 
   return (
+    
     <div className="about-container">
       <section className="sidebar">
         <h1>Sharun Chaluparambath</h1>
