@@ -292,9 +292,26 @@ body {
   margin: none;
 }
 @media (max-width: 768px) {
-  .resume-container {
-    margin-top: 0;
+  .sidebar h1 {
+    font-size: 2rem;
   }
+
+  .sidebar h2 {
+    font-size: 1rem;
+  }
+
+  .social-icons a {
+    font-size: 1.4rem;
+  }
+
+  .main-content {
+    font-size: 0.95rem;
+  }
+
+  .resume-container {
+    margin-top: 20px;
+  }
+
 }
 
 

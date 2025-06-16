@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import {instagram ,Amazone,todo, weather,drum} from "./Links"
+import {instagram ,Amazone,todo, weather,drum} from "../../Links"
 
 
 

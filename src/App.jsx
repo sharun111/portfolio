@@ -1,9 +1,9 @@
 import React from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Projects from "./Projects";
+import Projects from "./components/Projects/Projects";
 import { useRef, useState } from "react";
 import {resume} from "./Links"
-import Intro from "./Intro"; 
+import Intro from "./components/Intro/Intro"; 
 
 
 const App = () => {
